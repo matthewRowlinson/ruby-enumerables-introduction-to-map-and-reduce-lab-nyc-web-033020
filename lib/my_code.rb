@@ -66,7 +66,7 @@ def reduce_to_all_true(source_array)
   i = 0 
   while i < source_array.length
     source_array[i] = true 
-    i += 0 
+    i += 1
   end
   source_array
 end
