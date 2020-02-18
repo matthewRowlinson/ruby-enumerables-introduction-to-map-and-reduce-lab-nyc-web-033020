@@ -15,3 +15,12 @@
 # - `reduce_to_any_true(source_array)`
 
 # Remember, all `reduce` methods return a _value_.
+
+def map_to_negativize(source_array)
+  i = 0 
+  while i < source_array
+  source_array[i] = source_array[i] * -1 
+  i += 1 
+  end
+  source_array
+end
